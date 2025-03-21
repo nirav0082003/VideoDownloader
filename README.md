@@ -1,5 +1,5 @@
 # VideoDownloader
-
+This is video downloader using pytube.  It downloads file in the DASH format (seperate audio and video file and stich to gather using a ffmpeg to final video file.)
 
 ## Build image using
 docker build --pull --rm -f 'Dockerfile' -t 'youtubedownloader:latest' '.' 
